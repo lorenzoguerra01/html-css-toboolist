@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Toboolist</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <!-- intestazione -->
+    <header class="bg-white">
+        <!-- titolo -->
+        <div>
+            <img src="img/logo.png" alt="logo">
+            <h1>Toboolist</h1>
+        </div>
+    </header>
+    <!-- corpo -->
+    <main class="bg-white">
+        <article>
+            <div>
+                <button class="blue">Add Task</button><button>Add Section</button>
+            </div>
+            <div>
+                <details>
+                    <summary>New Task</summary>
+                    <ul>
+                        <li><strong class="circle check">&check;</strong>Quarterly Newsletter<span class="bg blue">Editorial</span></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Today</summary>
+                    <ul>
+                        <li><strong class="circle check">&check;</strong>Recruiting blog post<span class="bg blue">Editorial</span></li>
+                        <li><strong class="circle check">&check;</strong>Mobile app luaunch<span class="bg purple">Q1 Goals</span></li>
+                        <li><strong class="circle cross">&Cross;</strong>Interview John H.<span class="bg green">Recruiting</span></li>
+                        <li><strong class="circle check">&check;</strong>Summit update to mobile storefronts<span class="bg orange">Mobile</span></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Upcoming</summary>
+                    <ul>
+                        <li><strong class="circle cross">&Cross;</strong>Schedule meeting with Alex</li>
+                        <li><strong class="circle check">&check;</strong>Homepage refresh<span class="bg pink">Websites</span></li>
+                        <li><strong class="circle check">&check;</strong>Onboard new Sales team members<span class="bg lgreen">Sales</span></li>
+                        <li><strong class="circle check">&check;</strong>Review editorial calendar<span class="bg blue">Editorial</span></li>
+                    </ul>
+                </details>
+            </div>
+        </article>
+    </main>
 </body>
+
 </html>

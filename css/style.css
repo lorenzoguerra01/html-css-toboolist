@@ -1,6 +1,121 @@
 /* general */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: whitesmoke;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+header div {
+    padding: 10px 15px;
+    margin-bottom: 50px;
+}
+
+div img,
+h1 {
+    font-weight: 900;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+main {
+    margin: 20px 300px;
+    border-radius: 20px;
+}
+
+summary {
+    margin-bottom: 10px;
+    color: darkslategray;
+    font-weight: 800;
+}
+.circle {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+article div{
+    border-bottom: 3px solid whitesmoke;
+    padding: 10px 80px;
+}
+
+details {
+    margin-top: 30px;
+}
+
+div button {
+    margin-right: 10px;
+    width: 80px;
+    height: 30px;
+    border: 1.5px solid gainsboro;
+    border-radius: 5px;
+    background-color: white;
+    color: gainsboro;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.check {
+    border: 2px solid #76c9b6;
+    color: #76c9b6;
+}
+
+.cross{
+    color: #ec6660;
+    border: 2px solid #ec6660;
+}
+
+.bg {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 15px;
+    font-size: x-small;
+}
+
+.blue {
+    background-color: #47adf1;
+    border: #47adf1;
+    color: white;
+}
+
+
+.purple {
+    background-color: #9c72e4;
+}
+
+
+.pink {
+    background-color: #d863a0;
+}
+
+.orange{
+    background-color: #f29e33;
+}
+
+.green {
+    background-color: #64c0a9;
+}
+
+.lgreen {
+    background-color: #b0c926;
 }
